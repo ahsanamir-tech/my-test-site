@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Test Orbit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: radial-gradient(circle at top left, #1a1a2e, #16213e); }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+    </style>
+</head>
+<body class="text-white min-h-screen flex items-center justify-center font-sans">
+    <div class="glass p-12 rounded-3xl shadow-2xl text-center max-w-md mx-4">
+        <div class="w-20 h-20 bg-blue-500 rounded-full mx-auto mb-6 flex items-center justify-center animate-bounce shadow-[0_0_30px_rgba(59,130,246,0.5)]">
+            <span class="text-3xl">🏠</span>
+        </div>
+        <h1 class="text-4xl font-bold mb-4 tracking-tight">Home Page</h1>
+        <p class="text-blue-200 mb-8">This is the main entry point of your Vercel deployment.</p>
+        
+        <a href="about.html" class="inline-block bg-white text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-blue-400 hover:text-white transition-all">
+            Go to About Page →
+        </a>
+    </div>
+</body>
+</html>
